@@ -19,11 +19,12 @@
             </tr>
         </thead>
         <tbody>
+            {{range.}}
             <tr>
-                <td>Camiseta</td>
-                <td>Bem Bonita</td>
-                <td>29</td>
-                <td>10</td>
+                <td>{{.Nome}}</td>
+                <td>{{.Descricao}}</td>
+                <td>{{.Preco}}</td>
+                <td>{{.Quantidade}}</td>
             </tr> 
         </tbody>
     </table>
